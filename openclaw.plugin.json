@@ -1,0 +1,9 @@
+{
+  "id": "cliq",
+  "channels": ["cliq"],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}

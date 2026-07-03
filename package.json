@@ -1,0 +1,18 @@
+{
+  "name": "@sprintcx/openclaw-cliq-channel",
+  "version": "1.0.0",
+  "description": "Zoho Cliq channel plugin for OpenClaw — compatible with Gateway 2026.6.6+",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.0",
+    "typescript": "^5.7.0"
+  },
+  "peerDependencies": {
+    "openclaw": ">=2026.6.0"
+  }
+}
